@@ -9,8 +9,8 @@ from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 
 ua = UserAgent()
-f = codecs.open('C:/Users/CrosstreetB/results.json', 'w', encoding="utf-8")
-f2 = codecs.open('C:/Users/CrosstreetB/station_name.txt', 'r')
+f = codecs.open('PATH/results.json', 'w', encoding="utf-8")
+f2 = codecs.open('PATH/station_name.txt', 'r')
 tup_station = f2.read().splitlines()
 tup_menu = ('파스타', '치킨', '한식', '삼겹살', '초밥', '회', '중국', '곱창')
 
